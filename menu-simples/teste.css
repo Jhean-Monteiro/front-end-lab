@@ -1,0 +1,19 @@
+table {
+    height: 300px;
+    width: 300px;
+    border-collapse: collapse;
+}
+
+.classe1 {
+    color: white;
+    background-color: white;
+}
+
+.classe2 {
+    color: black;
+    background-color: black;
+}
+
+body {
+    background-color: yellow;
+}

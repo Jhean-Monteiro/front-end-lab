@@ -1,0 +1,12 @@
+nav a {
+    border: 2px solid;
+}
+
+ul {
+    display: flex;
+}
+
+a:active {
+    color: black;
+    background-color:red
+}
