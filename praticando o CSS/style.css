@@ -1,0 +1,53 @@
+* {
+	text-align: center;
+}
+
+body {
+	
+	background-color: rgba(0, 255, 0, 0.1)
+}
+
+h2 {
+	color: purple;
+}
+#nav {
+	text-align: left;
+	border: solid 10pz black;
+	padding-left: 15px; /* */
+}
+#secao-1 {
+	color: yellow;
+	background-color: black;
+	font-size:25px;
+	border: solid, yellow;
+}
+
+.tomate {
+	color: tomato;
+	font-style: italic;
+}
+
+#secao-2 {
+	border: solid, black;
+	background-color: white;
+	padding: 70px
+}
+
+#secao-3 {
+	font-family: sans-serif;
+	font-size: 20px;
+	border: solid, white;
+	background-color: gold;
+	color: white;
+}
+
+
+#secao-4 {
+	
+}
+button {
+	border: solid 30px black;
+	padding: 20px;
+	margin-bottom: 30%;
+	margin-left: 30%;
+}
