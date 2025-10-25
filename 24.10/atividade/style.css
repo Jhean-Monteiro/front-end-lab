@@ -1,0 +1,31 @@
+body {
+    background-color: tomato
+}
+
+.massa {
+    float: left;
+    width: 90%;
+}
+
+.preco {
+    float: right;
+    width: 15%;
+}
+
+img {
+    width: 200px;
+    border: solid white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    background-color: green;
+}
+
+#teste {
+    text-align: center;
+}

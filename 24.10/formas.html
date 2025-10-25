@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #formas {
+            margin: 10px;
+        }
+        .quadrado {
+            margin: 3%;
+            width: 100px;
+            height: 100px;
+            border: solid black 2px
+        }
+
+        .quadrado:nth-child(1) {
+            background-color: red;
+        }
+        .quadrado:nth-child(2) {
+            background-color: green;
+        }
+        .quadrado:nth-child(3) {
+            background-color: blue;
+        }
+        @media (min-width: 200px) and (max-width: 300px) {
+            .quadrado {
+                width: 50px;
+                height: 100px;
+            }
+            
+        }
+
+        @media (max-width: 500px) {
+            .quadrado {
+                height: 200px;
+                width: 300px;
+            }
+            
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="formas">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+</body>
+</html>
