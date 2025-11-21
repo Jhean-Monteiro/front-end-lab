@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+
+        .forma {
+            width: 100px;
+            height: 100px;
+            border: black 2px solid;
+            margin: auto;
+        }
+
+        @media (min-width:400px) {
+           body {background-color: pink;}
+        }
+
+        @media (min-width: 200px) and (max-width: 390px) {
+            .forma {
+                width: 80px;
+                background-color: cyan;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha página</h1>
+    <div class="forma">
+        <p></p>
+    </div>
+
+</body>
+</html>
